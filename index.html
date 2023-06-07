@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Image Slider</title>
+</head>
+<body>
+  <div class="slider"> <!-- container for the slider -->
+    <div class="slides"> <!-- slides container -->
+
+      <!-- These are the radio buttons -->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <input type="radio" name="radio-btn" id="radio5">
+      <input type="radio" name="radio-btn" id="radio6">
+      <input type="radio" name="radio-btn" id="radio7">
+
+      <!-- These are the different slides -->
+      <div class="slide first">
+        <img src="./images/1.jpg" alt="with all your heart">
+      </div>
+
+      <div class="slide">
+        <img src="./images/2.jpg" alt="with all your heart">
+      </div>
+
+      <div class="slide">
+        <img src="./images/3.jpg" alt="with all your heart">
+      </div>
+
+      <div class="slide">
+        <img src="./images/4.jpg" alt="with all your heart">
+      </div>
+
+      <div class="slide">
+        <img src="./images/5.jpg" alt="with all your heart">
+      </div>
+
+      <div class="slide">
+        <img src="./images/6.jpg" alt="with all your heart">
+      </div>
+
+      <div class="slide">
+        <img src="./images/7.jpg" alt="with all your heart">
+      </div>
+      
+      <!-- both navigation-manual and navigation-auto will overlap each other using css -->
+      <!-- auto navigation buttons -->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+        <div class="auto-btn5"></div>
+        <div class="auto-btn6"></div>
+        <div class="auto-btn7"></div>
+      </div>
+
+    </div> <!-- end of the slides container -->
+
+    <!-- manual navigation buttons -->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+      <label for="radio5" class="manual-btn"></label>
+      <label for="radio6" class="manual-btn"></label>
+      <label for="radio7" class="manual-btn"></label>
+    </div>
+
+  </div> <!-- end of container for the slider -->
+  <script src="script.js"></script>
+</body>
+</html>
